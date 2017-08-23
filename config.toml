@@ -1,5 +1,4 @@
 baseurl = "/./"
-publishDir = "./"
 languageCode = "en-us"
 title = "Patrick Lefler Hugo website"
 theme = "hugo-lithium-theme"
@@ -9,6 +8,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 enableEmoji = true
 picture = "logo.png"
 coverImage = "myimage.jpg" 
+publishDir = "./"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
