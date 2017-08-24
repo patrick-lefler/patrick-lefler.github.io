@@ -31,4 +31,23 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r eval=FALSE}
+blogdown::build_site()
+blogdown::serve_site()
+```
+
+
+
+```{bash eval=FALSE}
+cd /git/patrick-lefler.github.io # your path to the repo may be different
+git add . # indexes all files that wil be added to the local repo
+git commit -m "Starting my Hugo blog" # adds all files to the local repo, with a commit message
+``` 
+
+#### Pushing to GitHub
+
+```{bash eval=FALSE}
+git push origin master # we push the changes from the local git repo to the remote repo (GitHub repo)
+``` 
+
