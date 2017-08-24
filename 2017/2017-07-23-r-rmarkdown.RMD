@@ -40,7 +40,7 @@ blogdown::serve_site()
 
 
 ```{bash eval=FALSE}
-cd /Git/[USERNAME].github.io # your path to the repo may be different
+cd /git/patrick-lefler.github.io # your path to the repo may be different
 git add . # indexes all files that wil be added to the local repo
 git commit -m "Starting my Hugo blog" # adds all files to the local repo, with a commit message
 ``` 
