@@ -1,0 +1,53 @@
+---
+title: "St. Petersburg Paradox"
+author: "Patrick Lefler"
+date: 2017-07-28T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
+```{r eval=FALSE}
+blogdown::build_site()
+blogdown::serve_site()
+```
+
+
+
+```{bash eval=FALSE}
+cd /git/patrick-lefler.github.io # your path to the repo may be different
+git add . # indexes all files that wil be added to the local repo
+git commit -m "Starting my Hugo blog" # adds all files to the local repo, with a commit message
+``` 
+
+#### Pushing to GitHub
+
+```{bash eval=FALSE}
+git push origin master # we push the changes from the local git repo to the remote repo (GitHub repo)
+``` 
+
