@@ -1,0 +1,52 @@
+---
+title: "About"
+---
+
+## Professional Background
+
+I'm a Cybersecurity Manager at a 300-person fintech firm, where I lead security operations for financial applications hosted on AWS. I also serve as a board member for a 250-person software development firm, bringing expertise in risk governance and technical security architecture.
+
+## Expertise
+
+**Cybersecurity & Risk Management**
+
+- Threat intelligence and incident response
+- Network security and penetration testing
+- Risk assessment across cyber, operational, and financial domains
+- Security architecture for cloud-native financial applications
+
+**Data Analysis & Visualization**
+
+- Advanced statistical modeling (Monte Carlo simulations, copula analysis, Markov models)
+- Interactive dashboards and reporting (R Shiny, Python)
+- Financial risk modeling and portfolio analysis
+- Network analysis and graph theory applications
+
+**Technical Skills**
+
+- **Languages**: Python, R, SQL, Bash
+- **Analysis Tools**: R Quarto, pandas, tidyverse, matplotlib, ggplot2
+- **Security Tools**: nmap, SIEM platforms, threat intelligence frameworks
+- **Cloud & DevOps**: AWS, Git, Docker, CI/CD pipelines
+
+## Focus Areas
+
+My work sits at the intersection of:
+
+- **Cybersecurity**: Building robust security monitoring and threat detection systems
+- **Quantitative Risk**: Applying statistical methods to operational and financial risk
+- **Data Visualization**: Creating clear, actionable insights from complex data
+- **Blockchain & Crypto**: Analyzing cryptocurrency markets and network security
+
+## Portfolio Philosophy
+
+Each project in this portfolio demonstrates the practical application of statistical methods, security frameworks, or data visualization techniques to real-world problems in cybersecurity and risk management. I build these projects to:
+
+1. Showcase technical proficiency across the full data science workflow
+2. Explore advanced statistical and security concepts
+3. Create reusable frameworks for risk analysis
+4. Share knowledge with the broader security and data science communities
+
+## Contact
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/patrick-lefler) or explore my code on [GitHub](https://github.com/patrick-lefler).
