@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: "Patrick Lefler"
+  description: "Cybersecurity & Risk Analysis Portfolio"
+  
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "LinkedIn"
+        icon: linkedin
+        href: https://www.linkedin.com/in/patrick-lefler
+      - text: "GitHub"
+        icon: github
+        href: https://github.com/patrick-lefler
+    
+  page-footer:
+    center: "© 2025 Patrick Lefler | Cybersecurity & Risk Analysis"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
