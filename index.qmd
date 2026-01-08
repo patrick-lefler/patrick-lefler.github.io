@@ -1,0 +1,83 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero-banner}
+# Patrick Lefler
+
+### Cybersecurity Manager | Risk Analysis | Data Visualization
+
+Bridging cybersecurity expertise with advanced statistical modeling and data visualization
+:::
+
+## Featured Projects
+
+::: {.project-grid}
+
+::: {.project-card}
+### Cybersecurity & Threat Analysis
+**Security Incident Monitor Dashboard**  
+Interactive R Shiny dashboard for real-time security incident monitoring and threat intelligence aggregation.  
+[View Project →](https://patrick-lefler.github.io/security-incident-monitor/)
+
+**Network Scanning Analysis**  
+Comprehensive nmap scanning analysis with R-based visualization and statistical modeling.  
+[View Project →](https://patrick-lefler.github.io/nmap-analysis/)
+
+**Threat Modeling with STRIDE**  
+Implementation framework for systematic threat identification in financial applications.  
+[View Project →](https://patrick-lefler.github.io/stride-framework/)
+:::
+
+::: {.project-card}
+### Risk Management & Financial Analysis
+**Credit Risk Scorecard**  
+Machine learning workflow for credit default prediction with feature engineering and model validation.  
+[View Project →](https://patrick-lefler.github.io/credit-risk-scorecard/)
+
+**Tail Risk Hedging Analysis**  
+Clayton Copula modeling for portfolio tail risk assessment and hedging strategies.  
+[View Project →](https://patrick-lefler.github.io/tail-risk-hedging/)
+
+**Monte Carlo Project Simulations**  
+Timeline and budget risk analysis using lognormal distributions for project management.  
+[View Project →](https://patrick-lefler.github.io/project-simulation/)
+:::
+
+::: {.project-card}
+### Data Visualization & Statistical Modeling
+**State Financial Health Assessment**  
+Interactive hexagon tile maps visualizing fiscal metrics across US states.  
+[View Project →](https://patrick-lefler.github.io/state-financial-health/)
+
+**Options Implied Volatility Calculator**  
+Interactive tool for options pricing and Greeks calculation with real-time visualization.  
+[View Project →](https://patrick-lefler.github.io/options-calculator/)
+
+**Blockchain Data Visualization**  
+Network analysis and visualization of Bitcoin transaction patterns and network health metrics.  
+[View Project →](https://patrick-lefler.github.io/blockchain-visualization/)
+:::
+
+:::
+
+## Technical Writing
+
+Recent articles on cybersecurity and risk management:
+
+- **Shift-Left Security Economics**: Cost-benefit analysis of early-stage security integration
+- **Insider Threat Detection with Markov Models**: Statistical approaches to behavioral anomaly detection
+- **Bitcoin Halving Mechanisms**: Analysis of monetary policy and network effects
+
+[View all articles on Medium →](https://medium.com/@patrick-lefler)
+
+---
+
+::: {.contact-section}
+## Let's Connect
+
+I create technical content on cybersecurity, risk management, and data visualization.
+
+[LinkedIn](https://www.linkedin.com/in/patrick-lefler) | [GitHub](https://github.com/patrick-lefler) | [Medium](https://medium.com/@patrick-lefler)
+:::
