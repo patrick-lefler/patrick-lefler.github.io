@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a Cybersecurity Manager at a 300-person fintech firm, where I lead security operations for financial applications hosted on AWS. I also serve as a board member for a 250-person software development firm, bringing expertise in risk governance and technical security architecture."
+  },
+  {
+    "objectID": "about.html#professional-background",
+    "href": "about.html#professional-background",
+    "title": "About",
+    "section": "",
+    "text": "I’m a Cybersecurity Manager at a 300-person fintech firm, where I lead security operations for financial applications hosted on AWS. I also serve as a board member for a 250-person software development firm, bringing expertise in risk governance and technical security architecture."
+  },
+  {
+    "objectID": "about.html#expertise",
+    "href": "about.html#expertise",
+    "title": "About",
+    "section": "Expertise",
+    "text": "Expertise\nCybersecurity & Risk Management\n\nThreat intelligence and incident response\nNetwork security and penetration testing\nRisk assessment across cyber, operational, and financial domains\nSecurity architecture for cloud-native financial applications\n\nData Analysis & Visualization\n\nAdvanced statistical modeling (Monte Carlo simulations, copula analysis, Markov models)\nInteractive dashboards and reporting (R Shiny, Python)\nFinancial risk modeling and portfolio analysis\nNetwork analysis and graph theory applications\n\nTechnical Skills\n\nLanguages: Python, R, SQL, Bash\nAnalysis Tools: R Quarto, pandas, tidyverse, matplotlib, ggplot2\nSecurity Tools: nmap, SIEM platforms, threat intelligence frameworks\nCloud & DevOps: AWS, Git, Docker, CI/CD pipelines"
+  },
+  {
+    "objectID": "about.html#focus-areas",
+    "href": "about.html#focus-areas",
+    "title": "About",
+    "section": "Focus Areas",
+    "text": "Focus Areas\nMy work sits at the intersection of:\n\nCybersecurity: Building robust security monitoring and threat detection systems\nQuantitative Risk: Applying statistical methods to operational and financial risk\nData Visualization: Creating clear, actionable insights from complex data\nBlockchain & Crypto: Analyzing cryptocurrency markets and network security"
+  },
+  {
+    "objectID": "about.html#portfolio-philosophy",
+    "href": "about.html#portfolio-philosophy",
+    "title": "About",
+    "section": "Portfolio Philosophy",
+    "text": "Portfolio Philosophy\nEach project in this portfolio demonstrates the practical application of statistical methods, security frameworks, or data visualization techniques to real-world problems in cybersecurity and risk management. I build these projects to:\n\nShowcase technical proficiency across the full data science workflow\nExplore advanced statistical and security concepts\nCreate reusable frameworks for risk analysis\nShare knowledge with the broader security and data science communities"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nConnect with me on LinkedIn or explore my code on GitHub."
+  },
+  {
+    "objectID": "patrick-lefler.github.io/about.html",
+    "href": "patrick-lefler.github.io/about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a Cybersecurity Manager at a 300-person fintech firm, where I lead security operations for financial applications hosted on AWS. I also serve as a board member for a 250-person software development firm, bringing expertise in risk governance and technical security architecture."
+  },
+  {
+    "objectID": "patrick-lefler.github.io/about.html#professional-background",
+    "href": "patrick-lefler.github.io/about.html#professional-background",
+    "title": "About",
+    "section": "",
+    "text": "I’m a Cybersecurity Manager at a 300-person fintech firm, where I lead security operations for financial applications hosted on AWS. I also serve as a board member for a 250-person software development firm, bringing expertise in risk governance and technical security architecture."
+  },
+  {
+    "objectID": "patrick-lefler.github.io/about.html#expertise",
+    "href": "patrick-lefler.github.io/about.html#expertise",
+    "title": "About",
+    "section": "Expertise",
+    "text": "Expertise\nCybersecurity & Risk Management\n\nThreat intelligence and incident response\nNetwork security and penetration testing\nRisk assessment across cyber, operational, and financial domains\nSecurity architecture for cloud-native financial applications\n\nData Analysis & Visualization\n\nAdvanced statistical modeling (Monte Carlo simulations, copula analysis, Markov models)\nInteractive dashboards and reporting (R Shiny, Python)\nFinancial risk modeling and portfolio analysis\nNetwork analysis and graph theory applications\n\nTechnical Skills\n\nLanguages: Python, R, SQL, Bash\nAnalysis Tools: R Quarto, pandas, tidyverse, matplotlib, ggplot2\nSecurity Tools: nmap, SIEM platforms, threat intelligence frameworks\nCloud & DevOps: AWS, Git, Docker, CI/CD pipelines"
+  },
+  {
+    "objectID": "patrick-lefler.github.io/about.html#focus-areas",
+    "href": "patrick-lefler.github.io/about.html#focus-areas",
+    "title": "About",
+    "section": "Focus Areas",
+    "text": "Focus Areas\nMy work sits at the intersection of:\n\nCybersecurity: Building robust security monitoring and threat detection systems\nQuantitative Risk: Applying statistical methods to operational and financial risk\nData Visualization: Creating clear, actionable insights from complex data\nBlockchain & Crypto: Analyzing cryptocurrency markets and network security"
+  },
+  {
+    "objectID": "patrick-lefler.github.io/about.html#portfolio-philosophy",
+    "href": "patrick-lefler.github.io/about.html#portfolio-philosophy",
+    "title": "About",
+    "section": "Portfolio Philosophy",
+    "text": "Portfolio Philosophy\nEach project in this portfolio demonstrates the practical application of statistical methods, security frameworks, or data visualization techniques to real-world problems in cybersecurity and risk management. I build these projects to:\n\nShowcase technical proficiency across the full data science workflow\nExplore advanced statistical and security concepts\nCreate reusable frameworks for risk analysis\nShare knowledge with the broader security and data science communities"
+  },
+  {
+    "objectID": "patrick-lefler.github.io/about.html#contact",
+    "href": "patrick-lefler.github.io/about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nConnect with me on LinkedIn or explore my code on GitHub."
+  },
+  {
+    "objectID": "patrick-lefler.github.io/index.html",
+    "href": "patrick-lefler.github.io/index.html",
+    "title": "Patrick Lefler",
+    "section": "",
+    "text": "Bridging cybersecurity expertise with advanced statistical modeling and data visualization"
+  },
+  {
+    "objectID": "patrick-lefler.github.io/index.html#featured-projects",
+    "href": "patrick-lefler.github.io/index.html#featured-projects",
+    "title": "Patrick Lefler",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\nCybersecurity & Threat Analysis\nSecurity Incident Monitor Dashboard\nInteractive R Shiny dashboard for real-time security incident monitoring and threat intelligence aggregation.\nView Project →\nNetwork Scanning Analysis\nComprehensive nmap scanning analysis with R-based visualization and statistical modeling.\nView Project →\nThreat Modeling with STRIDE\nImplementation framework for systematic threat identification in financial applications.\nView Project →\n\n\nRisk Management & Financial Analysis\nCredit Risk Scorecard\nMachine learning workflow for credit default prediction with feature engineering and model validation.\nView Project →\nTail Risk Hedging Analysis\nClayton Copula modeling for portfolio tail risk assessment and hedging strategies.\nView Project →\nMonte Carlo Project Simulations\nTimeline and budget risk analysis using lognormal distributions for project management.\nView Project →\n\n\nData Visualization & Statistical Modeling\nState Financial Health Assessment\nInteractive hexagon tile maps visualizing fiscal metrics across US states.\nView Project →\nOptions Implied Volatility Calculator\nInteractive tool for options pricing and Greeks calculation with real-time visualization.\nView Project →\nBlockchain Data Visualization\nNetwork analysis and visualization of Bitcoin transaction patterns and network health metrics.\nView Project →"
+  },
+  {
+    "objectID": "patrick-lefler.github.io/index.html#technical-writing",
+    "href": "patrick-lefler.github.io/index.html#technical-writing",
+    "title": "Patrick Lefler",
+    "section": "Technical Writing",
+    "text": "Technical Writing\nRecent articles on cybersecurity and risk management:\n\nShift-Left Security Economics: Cost-benefit analysis of early-stage security integration\nInsider Threat Detection with Markov Models: Statistical approaches to behavioral anomaly detection\nBitcoin Halving Mechanisms: Analysis of monetary policy and network effects\n\nView all articles on Medium →"
+  },
+  {
+    "objectID": "patrick-lefler.github.io/index.html#lets-connect",
+    "href": "patrick-lefler.github.io/index.html#lets-connect",
+    "title": "Patrick Lefler",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nI create technical content on cybersecurity, risk management, and data visualization.\nLinkedIn | GitHub | Medium"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Patrick Lefler",
+    "section": "",
+    "text": "Bridging cybersecurity expertise with advanced statistical modeling and data visualization"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Patrick Lefler",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\nCybersecurity & Threat Analysis\nSecurity Incident Monitor Dashboard\nInteractive R Shiny dashboard for real-time security incident monitoring and threat intelligence aggregation.\nView Project →\nNetwork Scanning Analysis\nComprehensive nmap scanning analysis with R-based visualization and statistical modeling.\nView Project →\nThreat Modeling with STRIDE\nImplementation framework for systematic threat identification in financial applications.\nView Project →\n\n\nRisk Management & Financial Analysis\nCredit Risk Scorecard\nMachine learning workflow for credit default prediction with feature engineering and model validation.\nView Project →\nTail Risk Hedging Analysis\nClayton Copula modeling for portfolio tail risk assessment and hedging strategies.\nView Project →\nMonte Carlo Project Simulations\nTimeline and budget risk analysis using lognormal distributions for project management.\nView Project →\n\n\nData Visualization & Statistical Modeling\nState Financial Health Assessment\nInteractive hexagon tile maps visualizing fiscal metrics across US states.\nView Project →\nOptions Implied Volatility Calculator\nInteractive tool for options pricing and Greeks calculation with real-time visualization.\nView Project →\nBlockchain Data Visualization\nNetwork analysis and visualization of Bitcoin transaction patterns and network health metrics.\nView Project →"
+  },
+  {
+    "objectID": "index.html#technical-writing",
+    "href": "index.html#technical-writing",
+    "title": "Patrick Lefler",
+    "section": "Technical Writing",
+    "text": "Technical Writing\nRecent articles on cybersecurity and risk management:\n\nShift-Left Security Economics: Cost-benefit analysis of early-stage security integration\nInsider Threat Detection with Markov Models: Statistical approaches to behavioral anomaly detection\nBitcoin Halving Mechanisms: Analysis of monetary policy and network effects\n\nView all articles on Medium →"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Patrick Lefler",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nI create technical content on cybersecurity, risk management, and data visualization.\nLinkedIn | GitHub | Medium"
+  }
+]
