@@ -1,0 +1,36 @@
+---
+title: "Patrick Lefler"
+subtitle: "Financial Technology Executive"
+about: 
+  image: images/2005_mt_whitney.jpg
+  image-shape: round
+  template: jolla
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:patrick.lefler@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/patrick-lefler
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/patricklefler
+    - icon: medium
+      text: Medium
+      href: https://medium.com/@patrick.lefler 
+    - icon: filetype-pdf
+      text: Resume
+      url: resume.pdf
+      
+---
+## Education
+
+M.B.A. Finance | The Wharton School University of Pennsylvania |  Philadelphia, PA
+<br>
+B.S. Naval Architecture | United States Naval Academy | Annapolis, MD
+
+## Experience
+
+My career is grounded in managing uncertainty across complex environments, drawing on a foundation established as a U.S. Marine Corps officer and refined in fixed-income trading at Goldman Sachs. Following my graduation from Annapolis, I developed a focus on operational resilience that continues to guide my 20-plus years of experience in information, operational, and financial risk. I view risk as a dynamic, quantitative factor rather than a compliance exercise, and I strive to bridge the gap between executive strategy and technical execution. My goal is to develop security strategies that are commercially viable and responsive to evolving market and cyber threats.
+
+To support this strategic work, I maintain a practitioner’s approach to technology and quantitative modeling. Using both R, Python, I develop systems designed to anticipate and mitigate potential risks. I apply statistical methods and stochastic equations to model complex scenarios, focusing on identifying the low-probability “tail risks” that standard models may overlook. Ultimately, my focus is on translating this raw data into clear, actionable insights. By leveraging visualization frameworks like R Shiny, Quarto, & Plotly,I build interactive applications that help boards and senior executives make well-informed, data-driven decisions.
