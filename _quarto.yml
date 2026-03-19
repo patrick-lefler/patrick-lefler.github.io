@@ -15,7 +15,7 @@ website:
         href: insights/index.qmd
       - text: projects
         href: projects/index.qmd
-     
+      
 format:
   html:
     theme: [sandstone, styles.scss]
