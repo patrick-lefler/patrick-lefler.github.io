@@ -21,5 +21,9 @@
   {
     "listing": "/insights/index.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]
