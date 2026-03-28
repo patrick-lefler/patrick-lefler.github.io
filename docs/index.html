@@ -102,6 +102,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-image","listing-description","listing-categories","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-projects'] = new List('listing-latest-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -261,6 +289,71 @@ Mar 12, 2026
 </div>
 <div style="text-align: center; margin-top: 1rem;">
 <p><a href="https://patrick-lefler.github.io/insights/">View all insights →</a></p>
+</div>
+</section>
+<section id="latest-projects" class="level2">
+<h2 data-anchor-id="latest-projects">Latest projects</h2>
+<div id="listing-latest-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="QmF5ZXMnJTIwVGhlb3J5bSUyQ0tlbGx5JTIwQ3JpdGVyaW9uJTJDUXVhcnRv" data-listing-date-sort="1773720000000">
+<a href="2026-03-17_project/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/projects-10_andrei-castanha-cJWaTkaMkXY-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bayesian Kelly Criterion - From Point Estimate to Probability Distribution
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 17, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="QmF5ZXMnJTIwVGhlb3J5bSUyQ1F1YXJ0byUyQ0NyZWRpdCUyMFJpc2s=" data-listing-date-sort="1773374400000">
+<a href="2026-03-13_project/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/projects-09_steve-johnson-tMleKgUY6zs-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bayesian Inference in Lending Risk
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 13, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="UXVhcnRvJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDU3Vydml2YWwlMjBBbmFseXNpcw==" data-listing-date-sort="1770181200000">
+<a href="2026-02-04_project/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/projects-08_maximalfocus-HakTxidk36I-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Machine Learning and Survival Analysis - Predicting customer churn using complex statistical modeling
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Feb 4, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div style="text-align: center; margin-top: 1rem;">
+<p><a href="https://patrick-lefler.github.io/projects/">View all insights →</a></p>
 </div>
 
 
