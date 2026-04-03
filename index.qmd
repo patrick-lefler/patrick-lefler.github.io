@@ -30,6 +30,14 @@ listing:
     sort: "date desc"
     fields: [image, title, date]
     image-height: "220px"
+  - id: latest-projects
+    contents: projects/projects.yml
+    type: grid
+    max-items: 3
+    grid-columns: 3
+    sort: "date desc"
+    fields: [image, title, date]
+    image-height: "220px"
 ---
 
 ## Education
@@ -54,5 +62,12 @@ To support this strategic work, I maintain a practitioner's approach to technolo
 </div>
 
 
+## Latest projects
 
+:::{#latest-projects}
+:::
+
+<div style="text-align: center; margin-top: 1rem;">
+[View all projects →](https://patrick-lefler.github.io/projects/)
+</div>
 
