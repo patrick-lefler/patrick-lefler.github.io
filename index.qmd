@@ -18,6 +18,9 @@ about:
     - icon: medium
       text: Medium
       href: https://medium.com/@patrick.lefler 
+    - icon: substack
+      text: Substack
+      href: https://substack.com/@pflefler 
     - icon: filetype-pdf
       text: Resume
       url: "resume.pdf"
