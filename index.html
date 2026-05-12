@@ -30,16 +30,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-f194567e5c6efeb013b28392ff62c8b4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-fee303ae6e2651b1828198bac5dac9d1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-f194567e5c6efeb013b28392ff62c8b4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-16e92488941b10414a6bf260be0b0e74.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-01bb51f4304e69937544510129c35e64.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-01bb51f4304e69937544510129c35e64.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-01bb51f4304e69937544510129c35e64.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,10 +73,98 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-insights .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-image","listing-categories","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-insights'] = new List('listing-latest-insights', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-image","listing-description","listing-categories","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest-projects'] = new List('listing-latest-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Patrick Lefler – Home">
 <meta property="og:description" content="Financial Technology Executive">
+<meta property="og:image" content="images/insights-12_sander-weeteling-KABfjuSOx74-unsplash.jpg">
 <meta property="og:site_name" content="Home">
 </head>
 
@@ -130,7 +224,137 @@ ul.task-list li input[type="checkbox"] {
 <section id="experience" class="level2">
 <h2 data-anchor-id="experience">Experience</h2>
 <p>My career is grounded in managing uncertainty across complex environments, drawing on a foundation established as a U.S. Marine Corps officer and refined in fixed-income trading at Goldman Sachs. Following my graduation from Annapolis, I developed a focus on operational resilience that continues to guide my 20-plus years of experience in information, operational, and financial risk. I view risk as a dynamic, quantitative factor rather than a compliance exercise, and strive to bridge the gap between executive strategy and technical execution. My goal is to develop security strategies that are commercially viable and responsive to evolving market and cyber threats.</p>
-<p>To support this strategic work, I maintain a practitioner’s approach to technology and quantitative modeling. Using both R, Python, I develop systems designed to anticipate and mitigate potential risks. I apply statistical methods and stochastic equations to model complex scenarios, focusing on identifying the low-probability “tail risks” that standard models may overlook. Ultimately, my focus is on translating this raw data into clear, actionable insights. By leveraging visualization frameworks like R Shiny, Quarto, &amp; Plotly, I build interactive applications that help boards and senior executives make well-informed, data-driven decisions.</p>
+<p>To support this strategic work, I maintain a practitioner’s approach to technology and quantitative modeling. Using both R, Python, I develop systems designed to anticipate and mitigate potential risks. I apply statistical methods and stochastic equations to model complex scenarios, focusing on identifying the low-probability “tail risks” that standard models may overlook. Ultimately, my focus is on translating this raw data into clear, actionable insights. By leveraging visualization frameworks like R Shiny, Quarto, &amp; Plotly, I build interactive applications that help boards and senior executives make well informed, data-driven decisions.</p>
+</section>
+<section id="latest-insights" class="level2">
+<h2 data-anchor-id="latest-insights">Latest insights</h2>
+<div id="listing-latest-insights" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="R1JDJTIwRW5naW5lZXJpbmclMkNyaXNrJTIwZ292ZXJuYW5jZSUyQ0ZBSVIlMjBSaXNrJTIwQXBwcm9hY2g=" data-listing-date-sort="1778558400000">
+<a href="https://open.substack.com/pub/pflefler/p/retiring-the-risk-heat-map-quantitative?r=rayxl&amp;utm_campaign=post-expanded-share&amp;utm_medium=web" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/insights-12_sander-weeteling-KABfjuSOx74-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Retiring the Risk Heat Map - Quantitative Loss Modeling for Board-Level Decisions
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 12, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="R1JDJTIwRW5naW5lZXJpbmclMkNyaXNrJTIwZ292ZXJuYW5jZQ==" data-listing-date-sort="1778126400000">
+<a href="https://open.substack.com/pub/pflefler/p/perpetual-audit-readiness-how-engineering?r=rayxl&amp;utm_campaign=post&amp;utm_medium=web" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/insights-11_visax-8oni9vTWj7U-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Perpetual Audit Readiness - How Engineering Eliminates the Evidence Sprint
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 7, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="R1JDJTIwRW5naW5lZXJpbmclMkNyaXNrJTIwZ292ZXJuYW5jZQ==" data-listing-date-sort="1777953600000">
+<a href="https://open.substack.com/pub/pflefler/p/policy-as-code-the-document-nobody?r=rayxl&amp;utm_campaign=post-expanded-share&amp;utm_medium=web" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/insights-10_ricardo-gomez-angel-5YM26lUicfU-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Policy as Code - The Document Nobody Reads Is Now a Pipeline
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 5, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div style="text-align: center; margin-top: 1rem;">
+<p><a href="https://patrick-lefler.github.io/insights/">View all insights →</a></p>
+</div>
+</section>
+<section id="latest-projects" class="level2">
+<h2 data-anchor-id="latest-projects">Latest projects</h2>
+<div id="listing-latest-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="aHVnZ2luZyUyMGZhY2UlMkNMTE0=" data-listing-date-sort="1778472000000">
+<a href="https://patrick-lefler.github.io/rQuarto_auditing_pre-trained_hugging_face_financial_risk_model_2026-05-13/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/projects-14_jr-korpa-9XngoIpxcEo-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Auditing a Pre-Trained Hugging Face Financial Risk Model
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 11, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="cG9saWN5JTIwYXMlMjBjb2Rl" data-listing-date-sort="1777521600000">
+<a href="https://patrick-lefler.github.io/rQuarto_policy_as_code-a_simple_introduction_2026-04-30/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/projects-13_hartono-creative-studio-nr310vH93k0-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Policy as Code - A Simple Introduction
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Apr 30, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="c3Vydml2YWwlMjBhbmFseXNpcyUyQ2thcGxhbi1tZWllciUyQ3B5UXVhcnRv" data-listing-date-sort="1776139200000">
+<a href="https://patrick-lefler.github.io/pyQuarto_business_continuity_recovery_time_analysis_2026-04-14/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="images/projects-12_maximalfocus-VT4rx775FT4-unsplash.jpg" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+When the Clock Starts Ticking - A Survival Analysis of Business Continuity Recovery Times
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Apr 14, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div style="text-align: center; margin-top: 1rem;">
+<p><a href="https://patrick-lefler.github.io/projects/">View all projects →</a></p>
+</div>
 
 
 </section>
@@ -152,6 +376,10 @@ ul.task-list li input[type="checkbox"] {
   <a href="https://medium.com/@patrick.lefler" class="about-link" rel="" target="">
     <i class="bi bi-medium"></i>
      <span class="about-link-text">Medium</span>
+  </a>
+  <a href="https://substack.com/@pflefler" class="about-link" rel="" target="">
+    <i class="bi bi-substack"></i>
+     <span class="about-link-text">Substack</span>
   </a>
   <a href="/resume.pdf" class="about-link" rel="" target="">
     <i class="bi bi-filetype-pdf"></i>
