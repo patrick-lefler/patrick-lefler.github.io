@@ -2,7 +2,7 @@
 title: "Patrick Lefler"
 subtitle: "Financial Technology Executive"
 about: 
-  image: images/2005_mt_whitney.jpg
+  image: images/pfl_profile.png
   image-shape: round
   template: jolla
   links:
