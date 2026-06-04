@@ -7,6 +7,7 @@ project:
 website:
   title: "Home"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
+  google-analytics: "G-M71TS4BW1Q"
   page-footer: "Made with Quarto"
   navbar:
     title: Patrick Lefler
