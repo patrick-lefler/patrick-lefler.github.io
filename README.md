@@ -1,6 +1,6 @@
 ## patrick-lefler.github.io
 
-> Personal website and analytical portfolio for a financial technology executive, built with Quarto and deployed via GitHub Pages.
+> Personal website and analytical portfolio, built with Quarto and deployed via GitHub Pages.
 
 **Author:** Patrick Lefler
 
