@@ -3,8 +3,10 @@
 > Personal website and analytical portfolio for a financial technology executive, built with Quarto and deployed via GitHub Pages.
 
 **Author:** Patrick Lefler
+
 **Published:** 2025
-**Rendered:** <!-- leave blank -->
+
+**Rendered:** https://patrick-lefler.github.io/
 
 ---
 
