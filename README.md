@@ -38,12 +38,6 @@ The site is a single-page Quarto document (`index.qmd`) that aggregates dynamic 
 └── resume.pdf          # Downloadable résumé
 ```
 
-## Key Findings
-
-- Risk is most useful when treated as a quantitative, dynamic variable — not a compliance artifact. The site's projects reflect that premise across volatility forecasting, model auditing, and tail-risk estimation.
-- Standard models systematically underweight low-probability, high-severity events. The analytical work here applies stochastic and statistical methods specifically to surface those gaps.
-- Governance and technical execution are not separate tracks. Each project is designed to produce output a board member can read and a quant can verify.
-
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
