@@ -1,18 +1,7 @@
 [
   {
-    "listing": "/articles/index.html",
-    "items": [
-      "/articles/2026-03-19_article/index.html",
-      "/articles/2026-03-12_article/index.html",
-      "/articles/2026-03-04_article/index.html",
-      "/articles/2026-02-26_article/index.html",
-      "/articles/2026-02-18_article/index.html",
-      "/articles/2026-02-11_article/index.html",
-      "/articles/2026-02-05_article/index.html",
-      "/articles/2026-01-28_article/index.html",
-      "/articles/2026-01-22_article/index.html",
-      "/articles/2026-01-15_article/index.html"
-    ]
+    "listing": "/index.html",
+    "items": []
   },
   {
     "listing": "/projects/index.html",
@@ -20,10 +9,6 @@
   },
   {
     "listing": "/insights/index.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
     "items": []
   }
 ]
