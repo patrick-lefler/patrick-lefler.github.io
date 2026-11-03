@@ -1,0 +1,13 @@
+---
+title: Projects
+listing:
+  contents: projects.yml
+  type: grid
+  max-description-length: 300
+  sort-ui: false
+  filter-ui: false
+format: 
+  html: 
+      code-tools: false
+  
+---

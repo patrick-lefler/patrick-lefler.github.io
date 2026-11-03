@@ -1,0 +1,286 @@
+- title: "Three Questions for Any Risk Model"
+  path: https://patrick-lefler.com/rQuarto_three_questions_for_any_risk_model_2026-10-22/
+  #Photo by Andrei Castanha on Unsplash
+  image: images/projects-10_andrei-castanha-cJWaTkaMkXY-unsplash.jpg
+  description: >
+    Study that tests a black-box vendor risk model three ways: calibration, forecast dominance and fragility. Synthetic bank data, reproducible R code, tied to the April 2026 model risk guidance.
+  categories: [Model Risk, Third Party Vendor Management]
+  date: 2026-10-22
+# project-28
+
+
+- title: "Late Discovered Operational Risk Events"
+  path: https://patrick-lefler.com/rQuarto_late_discovered_op_risk_events_2026-10-08/
+# Photo by Steve Johnson on Unsplash
+  image: images/projects-09_steve-johnson-tMleKgUY6zs-unsplash.jpg
+  description: >
+    Simulation study testing how chain-ladder, Bornhuetter-Ferguson, and frequency-severity methods estimate undiscovered operational losses: trade errors, NAV errors, and unauthorized trading.
+  categories: [Markov Chain, Monte Carlo]
+  date: 2026-10-08
+# project-27
+
+
+- title: "The Mechanics of Markov Chain Monte Carlo"
+  path: https://patrick-lefler.github.io/rQuarto_markov_chain_monte_carlo_2026-09-25/
+# Photo by Maximalfocus on Unsplash
+  image: images/projects-08_maximalfocus-HakTxidk36I-unsplash.jpg
+  description: >
+    R Metropolis sampler for 10-factor portfolio VaR/ES, benchmarked against the exact posterior to show how poor mixing understates parameter risk.
+  categories: [Markov Chain, Monte Carlo]
+  date: 2026-09-24
+# project-26
+
+
+
+- title: "Time-to-KEV: Where Uniform Patch SLAs Spend Effort and Where Listings Actually Concentrate"
+  path: https://patrick-lefler.github.io/rQuarto_time-to-exploit_survival_analysis_2026-09-10/
+  # Photo by Christopher Burns on Unsplash
+  image: images/projects-07_christopher-burns-Kj2SaNHG-hg-unsplash.jpg
+  description: >
+   Survival analysis of CISA KEV listings: how likely and how fast CVEs are listed, and which patch SLA design leaves least exposure.
+  categories: [Survival Analysis, CVSS, Kaggle]
+  date: 2026-09-10
+# project-25
+
+
+- title: "Multi-Stage Attack Graph Simulation Via Markov Chains"
+  path: https://patrick-lefler.github.io/rQuarto_multi_stage_attack_graph_simulation_via_markov_chains_2026-08-27/
+ # Photo by A.Rahmat MN on Unsplash
+  image: images/projects-06_a-rahmat-mn-cH31ONvddf4-unsplash.jpg
+  description: >
+    An absorbing Markov chain model of the cyber kill chain in R, quantifying dwell time and containment odds under baseline and hardened defenses.
+  categories: [Markov Chain, MITRE ATT&CK Transition]
+  date: 2026-08-27
+# project-24
+
+
+- title: "High-Dimensional Cyber Anomaly Detection & Systemic Risk Modeling"
+  path: https://patrick-lefler.github.io/rQuarto_high-dimensional_cyber_anomaly_detection_and_risk_modeling_2026-08-13/
+ # Photo by Dynamic Wang on Unsplash
+  image: images/projects-05_dynamic-wang-Wjaf9ssSVts-unsplash.jpg
+  description: >
+    A pure-R detection system pairs PageRank-based structural risk mapping with an unsupervised autoencoder and Extreme Value Theory thresholds to catch stealth cyber attacks.
+  categories: [PageRank, Markov Transition Matrices]
+  date: 2026-08-13
+# project-23
+
+
+- title: "Quantitative Cyber Risk Analysis: Structural Vulnerability & Criticality Scoring via PageRank"
+  path: https://patrick-lefler.github.io/rQuarto_google_pagerank_vulnerability_and_criticality_scoring_2026-07-30/
+# Photo by <Hassaan Here on Unsplash
+  image: images/projects-04_hassaan-here-xDcmn1za0Vc-unsplash.jpg
+  description: >
+    Applies Google's PageRank algorithm to a 25-node enterprise IT dependency graph, ranking structural single points of failure for board-level risk budgeting.
+  categories: [PageRank, Vulnerability]
+  date: 2026-07-30
+# project-22
+
+
+- title: ATLAS Threshold Detection Rules Analysis
+  path: https://patrick-lefler.github.io/rQuarto_ATLAS_detection_rules_analysis_2026-07-16/
+# Photo by Pietro Jeng</a> on Unsplash
+  image: images/projects-03_pietro-jeng-n6B49lTx7NM-unsplash.jpg
+  description: >
+    ATLAS-based FRR/FAR/EER threshold calibration for detection rule: framing SOC alert tuning as a documented risk decision for cybersecurity leaders.
+  categories: [ATLAS, Incident Detection]
+  date: 2026-07-16
+# project-21
+
+
+- title: Quantifying the Blast Radius - Centrality-Based Criticality Modeling for Infrastructure Risk
+  path: https://patrick-lefler.github.io/rQuarto_quantifying_the_blast_radius_2026-07-02/
+ # Photo by Philipp Katzenberger on Unsplash  
+  image: images/projects-02_philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg
+  description: >
+    Which node's failure breaks the most? Graph centrality and node-removal simulation applied to a 90-node fintech infrastructure topology to rank structural risk and surface the failures that conventional inventories miss.
+  categories: [Graph Theory, Blast Radius]
+  date: 2026-07-02
+# project-20
+
+
+- title: The Diversification Question - Copula-Based Aggregation of Operational Risk Losses
+  path: https://patrick-lefler.github.io/rQuarto_0perational_risk-copula_based_loss_aggregation_2026-06-24/
+# Photo by Shubham Dhage on Unsplash
+  image: images/projects-01_shubham-dhage-gC_aoAjQl2Q-unsplash.jpg
+  description: >
+    Finds a ~30% capital benefit from modeling operational risk dependence with copulas, and shows the result barely depends on which copula is chosen.
+  categories: [Copulas, Operational Risk Modeling]
+  date: 2026-06-24
+# project-19
+
+
+- title: Extreme Value Theory and Operational Loss Capital Estimation
+  path: https://patrick-lefler.github.io/rQuarto_EVT_operational_loss_2026-06-17/
+# Photo by Milad Fakurian on Unsplash
+  image: images/projects-18_milad-fakurian-iLHDO19h0ng-unsplash.jpg
+  description: >
+    Quantifies how much a log-normal capital model understates operational loss tail risk versus a Generalized Pareto fit, using NexaCore's loss register.
+  categories: [Extreme Value Theory]
+  date: 2026-06-17
+# project-18
+
+- title: Mapping the Invisible - Active Directory Privilege Escalation Through Graph Theory Analysis
+  path: https://patrick-lefler.github.io/rQuarto_AD_privilege_escalation_through_graph_theory_analysis_2026-06-03/
+# Photo by pawel czerwinski on Unsplash 
+  image: images/projects-17_nat-9l98kFByiao-unsplash.jpg
+  description: >
+    An identity governance case study demonstrating how graph theory surfaces hidden privilege escalation paths in enterprise Active Directory environments that static access reviews cannot detect.
+  categories: [Graph Theory, Active Directory]
+  date: 2026-06-03
+# project-17
+
+- title: Operational Resilience - Quantifying Third-Party ICT Concentration Risk Under DORA
+  path: https://patrick-lefler.github.io/rQuarto_quantifying_third-party_concentration_risk_under_dora_2026-05-27/
+# Photo by Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/background-pattern-FAlYVtV1kRg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-16_pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg
+  description: >
+    A dependency graph model showing 8 ICT vendor entries in a DORA Register of Information collapse to 5 failure domains for a EU asset manager. Calibrated to the ESAs' 19 designated CTPPs, a discrete-event simulation produces an annualized business interruption loss distribution.
+  categories: [DORA, risk quantification]
+  date: 2026-05-27
+# project-16
+
+- title: Bayesian Cybersecurity Loss Forecasting
+  path: https://patrick-lefler.github.io/rQuarto_bayesian_cybersecurity_loss_forecasting_2026-05-18/
+# Photo by <a href="https://unsplash.com/@pyssling240?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thomas T</a> on <a href="https://unsplash.com/photos/a-blackboard-with-a-lot-of-writing-on-it-OPpCbAAKWv8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-15_thomas-t-OPpCbAAKWv8-unsplash.jpg
+  description: >
+    Most fintech risk registers treat ransomware as a qualitative category. This model replaces the label with a loss curve — a full distribution of probable annual financial outcomes, expressed in dollars, with Value-at-Risk figures a CFO can act on.
+  categories: [FAIR, EVT, risk quantification]
+  date: 2026-05-18
+# project-15
+
+- title: Auditing a Pre-Trained Hugging Face Financial Risk Model
+  path: https://patrick-lefler.github.io/rQuarto_auditing_pre-trained_hugging_face_financial_risk_model_2026-05-13/
+# Photo by <a href="https://unsplash.com/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> on <a href="https://unsplash.com/photos/pink-and-black-wallpaper-9XngoIpxcEo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-14_jr-korpa-9XngoIpxcEo-unsplash.jpg
+  description: >
+    This project introduces two R packages — hfhub and tok — and applies them to a structured metadata audit of FinBERT (ProsusAI/finbert), a BERT-based sentiment classifier widely deployed in fintech AI pipelines. 
+  categories: [hugging face, LLM]
+  date: 2026-05-11
+# project-14
+
+- title: Policy as Code - A Simple Introduction
+  path: https://patrick-lefler.github.io/rQuarto_policy_as_code-a_simple_introduction_2026-04-30/
+# Photo by <a href="https://unsplash.com/@hartonocreativestudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hartono Creative Studio</a> on <a href="https://unsplash.com/photos/golden-wavy-structure-on-yellow-background-nr310vH93k0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-13_hartono-creative-studio-nr310vH93k0-unsplash.jpg
+  description: >
+    This project introduces the Policy as Code concept through the simplest possible worked example — a six-condition password complexity validator — to make the pattern legible to both compliance professionals and engineers.
+  categories: [policy as code]
+  date: 2026-04-30
+# project-13
+
+- title: When the Clock Starts Ticking - A Survival Analysis of Business Continuity Recovery Times
+  path: https://patrick-lefler.github.io/pyQuarto_business_continuity_recovery_time_analysis_2026-04-14/
+# Photo by <a href="https://unsplash.com/@maximalfocus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maximalfocus</a> on <a href="https://unsplash.com/photos/blue-and-white-abstract-art-VT4rx775FT4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-12_maximalfocus-VT4rx775FT4-unsplash.jpg
+  description: >
+    Survival analysis exposes where RTO targets break down — and why your mean recovery time is lying.
+  categories: [survival analysis, kaplan-meier, pyQuarto]
+  date: 2026-04-14
+# project-12
+
+- title: Infrastructure-Based, Machine-Learning Phishing Detection
+  path: https://patrick-lefler.github.io/rQuarto_phishing_modeling_with_lightGBM_project-2026-03-31/
+  #Photo by <a href="https://unsplash.com/@and_machines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">and machines</a> on <a href="https://unsplash.com/photos/a-group-of-colorful-objects-2yClsTFXIcE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-11_and-machines-2yClsTFXIcE-unsplash.jpg
+  description: >
+    Analyzing the digital fingerprints of URLs through machine learning and the lightGBM model to detect incoming phishing emails.
+  categories: [Machine Learning, LightGBM, rQuarto]
+  date: 2026-03-31
+# project-11
+
+- title: Bayesian Kelly Criterion - From Point Estimate to Probability Distribution
+  path: https://patrick-lefler.github.io/rQuarto_kelly_criterion_modeling_project_2026-03-17/
+  #Photo by <a href="https://unsplash.com/@andreicastanha?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrei Castanha</a> on <a href="https://unsplash.com/photos/abstract-shapes-in-a-colorful-gradient-design-cJWaTkaMkXY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-10_andrei-castanha-cJWaTkaMkXY-unsplash.jpg
+  description: >
+    Bayesian Kelly position sizing: replaces the point estimate with a Beta posterior, derives the full Kelly distribution across four scenarios, and builds a staking policy from estimation uncertainty.
+  categories: [Bayes' Theorym, Kelly Criterion, rQuarto]
+  date: 2026-03-17
+# project-10
+
+- title: Bayesian Inference in Lending Risk
+  path: https://patrick-lefler.github.io/rQuarto_bayesian_inference_in_lending_risk_Project_2026-03-03/
+  #Photo by <a href="https://unsplash.com/@steve_j?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Steve Johnson</a> on <a href="https://unsplash.com/photos/abstract-blue-and-purple-organic-shapes-forming-a-star-tMleKgUY6zs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-09_steve-johnson-tMleKgUY6zs-unsplash.jpg
+  description: >
+    Bayesian lending risk analysis in R using rstanarm & bayestestR — posterior distributions, credible intervals, ROPE, and pd applied to real-world Lending Club interest rate data.
+  categories: [Bayes' Theorym, Quarto, Credit Risk]
+  date: 2026-03-03
+# project-09
+
+- title: Machine Learning and Survival Analysis - Predicting customer churn using complex statistical modeling
+  path: https://patrick-lefler.github.io/rQuarto_machine_learning_survival_analysis_2026-02-17/
+  # Photo by <a href="https://unsplash.com/@maximalfocus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maximalfocus</a> on <a href="https://unsplash.com/photos/black-and-red-light-illustration-HakTxidk36I?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-08_maximalfocus-HakTxidk36I-unsplash.jpg
+  description: >
+    A comprehensive data science framework leveraging machine learning and survival analysis for identifying, analyzing, and predicting customer attrition within a consumer credit card division.
+  categories: [Quarto, Machine Learning, Survival Analysis]
+  date: 2026-02-17
+# project-08
+
+- title: Predicting Vulnerability Exploitation - A Machine Learning Approach
+  path: https://patrick-lefler.github.io/rQuarto_predicting_vulnerability_exploitation-machine_learning_approach_2026-02-03/
+  # Photo by <a href="https://unsplash.com/@christopher__burns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Christopher Burns</a> on <a href="https://unsplash.com/photos/white-and-black-digital-wallpaper-Kj2SaNHG-hg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-07_christopher-burns-Kj2SaNHG-hg-unsplash.jpg
+  description: >
+    Prediction analysis of CVE exploitation using Machine Learning. Integrates NVD, EPSS, and CISA KEV data to forecast active threats. Features Random Forest modeling, SMOTE balancing, and executive risk visualization to enable proactive vulnerability prioritization.
+  categories: [Quarto, Vulnerability Management, Machine Learning]
+  date: 2026-02-03
+# project-07
+
+- title: Coding the Tail - Implementing Block Bootstrap & Extreme Value Theory in R
+  path: https://patrick-lefler.github.io/Block-Bootstrap-and-Extreme-Value-Theory/ 
+  # Photo by <a href="https://unsplash.com/@alir4hmatmn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">A.Rahmat MN</a> on <a href="https://unsplash.com/photos/a-pink-ribbon-is-blowing-in-the-wind-cH31ONvddf4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-06_a-rahmat-mn-cH31ONvddf4-unsplash.jpg
+  description: >
+    A technical framework and narrative summary project for implementing Block Bootstrap and EVT in R. It provides a practical demonstration of how to quantify tail risk in high-volatility assets (specifically Bitcoin) using advanced statistical methods that outperform standard Gaussian models.
+  categories: [Quarto, Extreme Value Theory, Monte-Carlo Simulation]
+  date: 2026-01-15
+# project-06
+
+
+- title: Modeling Defender's Dilemma
+  path: https://patrick-lefler.shinyapps.io/rShiny_Defenders_Dilemma/
+  # Photo by <a href="https://unsplash.com/@dynamicwang?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dynamic Wang</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-cell-phone-with-a-blue-background-Wjaf9ssSVts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-05_dynamic-wang-Wjaf9ssSVts-unsplash.jpg
+  description: >
+    An interactive R Shiny app modeling the Defender's Dilemma via Markov Chains & Monte Carlo simulations. Visualizes the stochastic nature of resource depletion (SOC fatigue, budget) vs. infinite attacks, calculating a specific "Probability of Ruin" to guide risk management.
+  categories: [Shiny, Markov Chain, Monte-Carlo Simulation]
+  date: 2026-01-05
+# project-05
+  
+  
+- title: Modeling Gamblers' Ruin
+  path: https://patrick-lefler.shinyapps.io/Shiny_Gamblers-Ruin/
+  # Photo by <a href="https://unsplash.com/@hassaanhre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hassaan Here</a> on <a href="https://unsplash.com/photos/a-computer-generated-image-of-a-spiral-like-structure-xDcmn1za0Vc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  image: images/projects-04_hassaan-here-xDcmn1za0Vc-unsplash.jpg
+  description: >
+    An Interactive R Shiny app simulating Gambler's Ruin via Monte Carlo methods. Visualizes Markov Chain dynamics to demonstrate how finite resources face inevitable ruin against infinite odds. Features dynamic inputs for capital & win rates to illustrate risk in trading & cybersecurity.
+  categories: [Shiny, Markov Chain, Monte-Carlo Simulation]
+  date: 2025-12-18
+# project-04
+
+
+# - title: Credit Default Risk Scorecard
+#   path: https://patrick-lefler.github.io/Credit-Default-Risk-Scorecard_RQuarto/
+# # Photo by Pietro Jeng</a> on Unsplash
+#   image: images/projects-03_pietro-jeng-n6B49lTx7NM-unsplash.jpg
+#   description: >
+#     Credit risk scorecard built using R, Quarto, & tidymodels. Integrates tuned ML and Monte Carlo sims for 5-tier risk classification. Features interactive dashboards and expected loss analysis to drive risk-based recommendations and capital requirement estimates.
+#   categories: [Quarto, Machine Learning, Credit Risk]
+#   date: 2025-12-01
+# # project-03
+# 
+# 
+# - title: Cybersecurity Landscape Threats
+#   path: https://patrick-lefler.github.io/Cybersecurity-Landscape-Threats-RQuarto/
+#   # Photo by <a href="https://unsplash.com/@fantasyflip?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Philipp Katzenberger</a> on <a href="https://unsplash.com/photos/closeup-photo-of-turned-on-blue-and-white-laptop-computer-iIJrUoeRoCQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+#   image: images/projects-02_philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg
+#   description: >
+#     The Evolving Cyber Threat Landscape, provides a comprehensive, data-driven analysis of global cybersecurity trends from 2015 through 2024. The study aggregates data from over 3,000 documented incidents to visualize the escalating scale and sophistication of digital threats.
+#   categories: [Quarto, Cybersecurity, Plotly]
+#   date: 2025-11-15
+# # project-02
+
+
